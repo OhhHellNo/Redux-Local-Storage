@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="mx-auto flex h-16 w-full max-w-4xl items-center justify-between rounded-xl border-2 border-solid border-gray-300 bg-white px-6">
       {/* Logo */}
       <div
-        className="cursor-pointer text-2xl font-bold text-gray-800 transition hover:text-purple-600"
+        className="cursor-pointer text-2xl font-bold  transition text-purple-600"
         onClick={() => navigate("/")}
       >
         Chill-Todo
