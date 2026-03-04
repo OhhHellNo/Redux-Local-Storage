@@ -60,7 +60,7 @@ export const AddPost = () => {
           )}
         </div>
 
-        {/* Detail */}
+        
         <div>
           <label className="mb-1 block text-sm font-medium text-gray-700">
             Detail
@@ -78,7 +78,7 @@ export const AddPost = () => {
           )}
         </div>
 
-        {/* Image URL */}
+        
         <div>
           <label className="mb-1 block text-sm font-medium text-gray-700">
             Image URL
