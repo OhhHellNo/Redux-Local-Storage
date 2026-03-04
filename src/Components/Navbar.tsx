@@ -7,7 +7,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "@/Components/ui/sheet";
 
 const Navbar = () => {
   const navigate = useNavigate();
