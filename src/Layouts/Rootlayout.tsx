@@ -1,9 +1,9 @@
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/components/Navbar";
 import { Outlet } from "react-router-dom";
 
 const Rootlayout = () => {
   return (
-    <div className="mt-4 bg-gray-100 min-h-screen">
+    <div className="mt-4 min-h-screen bg-gray-100">
       <Navbar></Navbar>
       <main className="flex-1">
         <Outlet></Outlet>
