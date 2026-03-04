@@ -42,8 +42,8 @@ export const TodoSlice = createSlice({
     ) => {
       const todo = state.find((t) => t.id === action.payload.id);
       if (todo) {
-        todo.title = action.payload.title;
         todo.description = action.payload.description;
+        todo.title = action.payload.title;
       }
     },
   },
