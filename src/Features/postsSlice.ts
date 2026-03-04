@@ -32,8 +32,8 @@ export const PostSlice = createSlice({
     updatePost: (state, action: PayloadAction<Post>) => {
       const post = state.find((p) => p.id === action.payload.id);
       if (post) {
-        post.Title = action.payload.Title;
         post.Detail = action.payload.Detail;
+        post.Title = action.payload.Title;
         post.Imageurl = action.payload.Imageurl;
         post.Author = action.payload.Author;
         savePosts(state);
