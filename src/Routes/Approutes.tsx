@@ -1,9 +1,9 @@
 import Rootlayout from "@/Layouts/Rootlayout";
-import { AddPost } from "@/lib/Pages/AddPost";
-import AddTodo from "@/lib/Pages/AddTodo";
-import { Home } from "@/lib/Pages/Home";
-import UpdatePost from "@/lib/Pages/UpdatePost";
-import { UpdateTodo } from "@/lib/Pages/UpdateTodo";
+import { AddPost } from "@/Pages/AddPost";
+import AddTodo from "@/Pages/AddTodo";
+import { Home } from "@/Pages/Home";
+import UpdatePost from "@/Pages/UpdatePost";
+import { UpdateTodo } from "@/Pages/UpdateTodo";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const Approutes = () => {
